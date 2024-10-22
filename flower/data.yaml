@@ -1,0 +1,12 @@
+train: /Users/sugammishra/Desktop/yolov5/flower/train/images
+val: /Users/sugammishra/Desktop/yolov5/flower/valid/images
+
+nc: 3
+names: ['daisy', 'rose', 'sunflower']
+
+roboflow:
+  workspace: plants-wwtfp
+  project: plant-detection-yud6i
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/plants-wwtfp/plant-detection-yud6i/dataset/2
